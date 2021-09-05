@@ -88,6 +88,7 @@ body:before {
     background-color: rgba(0, 0, 0, .3);
     transition: .2s;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 .container .item:hover {
     background-color: rgba(0, 0, 0, .4);
@@ -129,6 +130,7 @@ body:before {
 .clock-box {
     background: transparent;
     backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
 }
 .clock-box .clock {
     font-size: 100px;
@@ -294,6 +296,7 @@ body:before {
 .greet-box {
     background: transparent;
     backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
 }
 .greet-box input {
     padding: 10px 0;
@@ -371,6 +374,7 @@ body:before {
         grid-row: 1 / 2;
         background: transparent;
         backdrop-filter: blur(0);
+        -webkit-backdrop-filter: blur(0);
     }
 
     .todo-box {
@@ -388,6 +392,7 @@ body:before {
         grid-row: 2 / 3;
         background: transparent;
         backdrop-filter: blur(0);
+        -webkit-backdrop-filter: blur(0);
     }
 
     .music-box {
