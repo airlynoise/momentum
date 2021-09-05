@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+
+            <div class="item weather-box">
+                <div id="weather">
+                    <div>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span></span>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="clock-box">
+                <h2 class="clock">00:00</h2>
+                <div id="date"></div>
+            </div>
+
+            <div class="item todo-box">
+                <form id="todo-form">
+                    <input type="text" placeholder="Write To Do and Press Enter" required>
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+
+            <div class="item dday-box01">
+                <p>크리스마스<img src="img/schristmas-tree.png">까지</p>
+                <span class="remain-time"></span>
+            </div>
+
+            <div class="greet-box">
+                <form class="login-form hidden">
+                    <input required maxlength="20" type="text" placeholder="What is your name?" />
+                    <input type="submit" value="Enter" />
+                </form>
+
+                <h1 class="greeting hidden"></h1>
+            </div>
+
+            <div class="item music-box">
+                <a href>
+                    <img />
+                    <p class="txt_elip2"></p>
+                    <span></span>
+                </a>
+            </div>
+
+            <div class="item dday-box02">
+                <p>내 생일<img src="img/scake.png">까지</p>
+                <span class="remain-time"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/playlist.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
