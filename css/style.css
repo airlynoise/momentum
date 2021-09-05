@@ -4,7 +4,7 @@
 html, body {
     font-family: 'Noto Sans KR', sans-serif;
 }
-input[type="text"] {background:transparent; border:none; outline:none; border-bottom:2px solid rgba(255,255,255,.3); caret-color:#fff; transition:0.2s;}
+input[type="text"] {width:100%; background:transparent; border:none; outline:none; border-bottom:2px solid rgba(255,255,255,.3); caret-color:#fff; transition:0.2s;}
 input[type="text"]::placeholder {color:rgba(255,255,255,.3);transition:0.2s;}
 input[type="text"]:hover,input[type="text"]:active,input[type="text"]:focus {border-color:rgba(255,255,255,1);}
 input[type="text"]:hover::placeholder,input[type="text"]:active::placeholder,input[type="text"]:focus::placeholder {color:rgba(255,255,255,1);}
@@ -428,11 +428,15 @@ body:before {
     }
     .container > div {
         padding:8vw;
-        width:100%;
         max-height: 260px;
         box-sizing: border-box;
     }
     .greet-box {
         grid-row: 4 / 5;
+    }
+    .greet-box input[type="submit"] {
+        margin-top: 20px;
+        width: 50%;
+        height: 50px;
     }
 }
