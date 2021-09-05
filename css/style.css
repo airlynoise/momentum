@@ -449,13 +449,14 @@ body:before {
     .container > div {
         padding: 8vw;
         max-height: 260px;
+        border-radius: 5vw;
         box-sizing: border-box;
     }
     .greet-box {
         grid-row: 4 / 5;
     }
     .greet-box form {
-        width:100%;
+        width: 100%;
     }
     .greet-box input:nth-of-type(1) {
         width: 100%;
